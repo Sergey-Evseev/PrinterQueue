@@ -17,9 +17,9 @@ Printer::~Printer()
 	delete[]pri;
 }
 
-void Printer::AddPrinting(int c, int p)
+void Printer::AddPrinting(int c, int p) 
 {
-	if (!IsFull())//если в очереди есть своб.метос
+	if (!IsFull())//если в очереди есть своб.меcто
 	{
 		queue[queueLength] = c;//новое кол-во значений
 		pri[queueLength] = p;
